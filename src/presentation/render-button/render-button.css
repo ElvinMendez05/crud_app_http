@@ -1,0 +1,26 @@
+button {
+     margin: 10px;
+}
+
+#current-page {
+     font-size: 1.3rem;
+     color: black !important;
+     margin-right: 10px;
+     margin-left: 10px;
+} 
+
+.red-button:hover {
+    background-color: #c0392b ;
+    color: white;
+    cursor: pointer;
+    transition: all .3s;
+     border: none;
+ }
+ 
+ .green-button:hover {
+    background-color: #26f094;
+    color: white;
+    cursor: pointer;
+    transition: all .3s;
+    border: none;
+ }

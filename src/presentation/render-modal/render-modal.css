@@ -1,0 +1,86 @@
+.hide-modal {
+    display: none !important;
+} 
+
+.modal-container {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-dialog {
+    background-color: #ffffff; /* Fondo blanco del formulario */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    font-size: 1.5em;
+    color: #005f99; /* Azul oscuro */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #005f99;
+    border-radius: 5px;
+    font-size: 1em;
+    color: white;
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+    color: white;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox-group input {
+    margin-right: 10px;
+}
+
+label {
+    color: #005f99;
+}
+
+.button-form {
+    padding: 10px;
+    background-color: #005f99; 
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-form:hover {
+    background-color: #20ee58;
+    cursor: pointer;
+}

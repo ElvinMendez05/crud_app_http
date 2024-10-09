@@ -1,0 +1,36 @@
+table {
+    background-color: rgba(0, 0, 0, 0.348);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.select-user {
+    background-color: #22c04d;
+    color: white;
+    cursor: pointer;
+    transition: all .3s;
+    border: none;
+    padding: 0 10px 0 10px;
+    border-radius: 0.2rem;
+}
+
+.delete-user {
+    background-color: #c0392b;
+    color: white;
+    padding: 0 10px 0 10px;
+    border: none;
+    transition: all .3s;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+
+
+.select-user:hover, .delete-user:hover {
+    background-color: #4e8cdc;
+    color: white;
+    padding: 0 10px 0 10px;
+    border: none;
+    transition: all .3s;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}

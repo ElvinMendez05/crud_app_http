@@ -1,0 +1,13 @@
+.fab-button {
+    position: fixed;
+    bottom: 1.2rem;
+    right: 1.2rem;
+}
+
+.fab-button:hover {
+    background-color: #26f094;
+    color: white;
+    cursor: pointer;
+    transition: all .3s;
+    border: none;
+}
